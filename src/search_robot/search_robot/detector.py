@@ -15,7 +15,7 @@ class ArucoDetector(Node):
     def __init__(
         self,
         marker_size: float = 0.0701,   # rzeczywisty rozmiar markera Aruco 
-        max_distance: float = 3.5,     # maksymalny dystans detekcji (zgodny z zasiegiem skanera LDS-01: 3.5 m)
+        max_distance: float = 4.0,     # maksymalny dystans detekcji
         outlier_threshold: float = 0.8,# prog odrzucania skokow pomiaru
         min_confirm_frames: int = 3,   # liczba obrazów do potwierdzenia kostki
     ):
