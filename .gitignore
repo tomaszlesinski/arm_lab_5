@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ROS 2 build / install / log artifacts
+build/
+install/
+log/
+
+# LaTeX build temporary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store

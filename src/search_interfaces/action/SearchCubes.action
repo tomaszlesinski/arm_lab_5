@@ -1,0 +1,9 @@
+bool start_search
+---
+bool success
+int32[] ids
+geometry_msgs/Point[] positions
+---
+int32 found_count
+int32 total_count
+string current_status
